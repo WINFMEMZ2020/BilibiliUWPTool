@@ -10,9 +10,6 @@ import stat
 init(autoreset=True)
 times = 0
 for root, dirs, files in os.walk("E://bilibilidownload//ss1733//"):
-	#print("当前目录路径:", root)
-	#print("当前目录下所有子目录:", dirs)
-	#print("当前路径下所有非目录子文件:", files)
 	if times == 0:
 		all = dirs
 		for folder in all:
@@ -61,4 +58,4 @@ for root, dirs, files in os.walk("E://bilibilidownload//ss1733//"):
 	
 	
 
-"E://bilibilidownload//ss21717//18231463//1//18231463.info"
+
