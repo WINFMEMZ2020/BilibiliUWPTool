@@ -8,9 +8,6 @@ import re
 import shutil
 import stat
 init(autoreset=True)
-#print(Fore.RED + 'some red text')
-#print(Back.GREEN + 'and with a green background')
-#print(Style.DIM + 'and in dim text')
 times = 0
 for root, dirs, files in os.walk("E://bilibilidownload//ss1733//"):
 	#print("当前目录路径:", root)
